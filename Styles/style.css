@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: chemikai;
+    src: url(../Fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: chemikai2;
+    src: url(../Fonts/Jura-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -250px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: chemikai2;
+    font-size: 40px;
+}
+
+.maincontainer{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 132px;
+    background-color: #61aad47b;
+    width: 826px;
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 20px;
+
+}
+
+.questionbox{
+    margin: auto;
+    padding-top: 118px;
+    text-align: center;
+    width: 600px;
+    font-family: chemikai;
+    font-size: 20px;
+
+}
+
+.btn{
+    text-align: center;
+    margin: auto;
+    margin-top: 56px;
+}
+.btn, .beginbtn{
+    width: 200px;
+    height: 70px;
+    font-size: 24px; 
+    font-family: chemikai2;
+    background-color: #FFC3A6;
+    margin-bottom: 30px;
+
+}
+
+button:hover{
+    background-color: #ffb18a;
+}
+
+.bigcontainer{
+    text-align: center;
+    margin-top: 122px;
+    background-color: #61aad47b;
+    width: 826px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 132px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    margin-bottom: 100px;
+}
+
+.lists{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: chemikai;
+
+}
+
+.lists li{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+input[type="radio"] {
+    transform: scale(2);
+    margin: 10px;
+    padding: 20px;
+}
+
+.questioncont{
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: chemikai;
+}
+.nextbtn{
+    margin-bottom: 20px;
+    width: 100px;
+    width: 200px;
+    height: 70px;
+    font-family: chemikai2;
+    font-size: 24px;
+    background-color: #FFC3A6;
+}
