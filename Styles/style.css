@@ -57,18 +57,24 @@ h1{
     margin: auto;
     margin-top: 56px;
 }
-.btn, .beginbtn{
+.beginbtn{
     width: 200px;
     height: 70px;
     font-size: 24px; 
     font-family: chemikai2;
     background-color: #FFC3A6;
     margin-bottom: 30px;
-
+    color: #000000;
+    display: inline-block;
+    line-height: 60px;
+    border: 2px solid #000000;
 }
-
+a:hover{
+    background-color: #ffb18a;
+}
 button:hover{
     background-color: #ffb18a;
+    cursor: pointer;
 }
 
 .bigcontainer{
