@@ -44,14 +44,18 @@ function getRandomQuestion() {
         document.getElementById("question-number").innerHTML = "Question #" + questionNumber;
         questionNumber++;
 
-        if(questionNumber === 11){
-          questionNumber = 1;
-        }
+        // if(questionNumber === 11){
+        //   questionNumber = 1;
+        // }
 
         questionCount++;
 
         if(questionCount === 11){
           alert(`You answered ${correctAnswers} questions correctly!`);
+          questionNumber = 1;
+          questionCount = 0;
+          correctAnswers = 0;
+
         }
 
       })
